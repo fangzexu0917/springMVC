@@ -40,13 +40,13 @@ public class HttpController {
     @RequestMapping(value = "/testResponseBody")
     @ResponseBody
     public String testResponseBody() {
-        return "success123456";
+        return "success123456方泽旭";
     }
 
     @RequestMapping(value = "/testResponseUser")
     @ResponseBody
     public User testResponseUser() {
-        return new User(1001, "admin", "123456", 22, "male");
+        return new User(1001, "方泽旭", "123456", 22, "male");
     }
 
     @RequestMapping("/testAxios")
